@@ -11,13 +11,14 @@ import multer from "multer";
 import fs from "fs";
 import Place from "./Models/Place.js"
 import Booking from "./Models/Booking.js";
+import cors from "cors"
 
 
 const app = express()
 
 app.use(Cors({
     credentials: true,
-    origin: 'http://localhost:5173'
+    origin: 'https://66914df39b209447776afa1f--inspiring-concha-377594.netlify.app'
 }))
 
 
